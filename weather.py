@@ -6,7 +6,7 @@ from flask import Flask, jsonify, request
 
 #API_TOKEN can be set different, is used for Postman 
 
-API_TOKEN = "parsifal"
+API_TOKEN = ""
 
 app = Flask(__name__)
 class InvalidUsage(Exception):
